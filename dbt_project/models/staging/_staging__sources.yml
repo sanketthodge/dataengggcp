@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: m9_raw
+    database: sankettraining-0
+    schema: m9_raw_sanket
+    tables:
+      - name: orders_raw
+        description: Raw orders feed, one row per order.
+        columns:
+          - name: order_id
+            tests:
+              - unique
+              - not_null
+          - name: customer_id
+            tests:
+              - not_null
+          - name: order_date
+            tests:
+              - not_null
+          - name: amount

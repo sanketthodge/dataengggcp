@@ -1,0 +1,8 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/dbt_project/.venv/bin/python",
+  "files.exclude": {
+    "**/target": true,
+    "**/dbt_packages": true,
+    "**/logs": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "innoverio.vscode-dbt-power-user",
+    "ms-python.python",
+    "googlecloudtools.cloudcode",
+    "eamodio.gitlens",
+    "github.vscode-pull-request-github"
+  ]
+}
